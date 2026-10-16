@@ -1,3 +1,7 @@
+.categories {
+  margin-bottom: 80px;
+}
+
 .categories-cards {
   display: grid;
   grid-template-columns: 1fr;
