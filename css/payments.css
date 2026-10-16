@@ -6,20 +6,17 @@
   margin-top: 24px;
   width: 100%;
 }
-.payments .content-container {
-  display: flex;
-}
 
 .payments .content-container .image-gallery .image.first {
-  background: url(../img/montagem-malas.png) no-repeat;
+  background: url(../img/gallery1-mobile.png) no-repeat;
   background-size: cover;
 }
 .payments .content-container .image-gallery .image.second {
-  background: url(../img/Montagem-passaporte.png) no-repeat;
+  background: url(../img/gallery2-mobile.png) no-repeat;
   background-size: cover;
 }
 .payments .content-container .image-gallery .image.thirdy {
-  background: url(../img/Montagem-ponte.png) no-repeat;
+  background: url(../img/gallery3-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -44,6 +41,9 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
+    display: flex;
+  }
+  .payments .content-container {
     justify-content: space-between;
   }
   .payments .content-container .text-content {
@@ -51,5 +51,6 @@
   }
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
