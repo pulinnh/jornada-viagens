@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 1024px) {
   .destinations {
-    width: 1200px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     gap: 64px;
@@ -81,5 +81,11 @@
   }
   .destinations .item {
     width: calc(50% - 12px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 1200px;
   }
 }
